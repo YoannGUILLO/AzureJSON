@@ -3,9 +3,11 @@
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/YoannGUILLO/AzureJSON/master/300-WebPlatform_IIS_SQL/azuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png" />
 </a>
+
 <a href="http://armviz.io/#/?load=https://raw.githubusercontent.com/YoannGUILLO/AzureJSON/master/300-WebPlatform_IIS_SQL/azuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a>
+
 This template creates one or two Windows Server 2012R2 VM(s) with IIS configured using DSC. It also installs one SQL Server 2014 standard edition VM, a VNET with two subnets, NSG, loader balancer, NATing and probing rules.
 
 ## Resources
