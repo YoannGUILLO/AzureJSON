@@ -14,7 +14,7 @@
       }
   },
     "variables": {
-      "templatelink": "[concat('https://raw.githubusercontent.com/exampleuser/templates/master/',parameters('newOrExisting'),'StorageAccount.json')]"
+      "templatelink": "[concat('https://raw.githubusercontent.com/YoannGUILLO/AzureJSON/master/400-LinkedTemplate/',parameters('newOrExisting'),'StorageAccount.json')]"
     },
     "resources": [
       {
