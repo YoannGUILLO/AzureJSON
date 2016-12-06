@@ -13,9 +13,13 @@
         ]
       }
   },
-    "variables": {
-      "templatelink": "[concat('https://raw.githubusercontent.com/YoannGUILLO/AzureJSON/master/400-LinkedTemplate/',parameters('newOrExisting'),'StorageAccount.json')]"
-    },
+  "variables": {
+    //single comment
+    /*
+    block comment
+    */
+    "templatelink": "[concat('https://raw.githubusercontent.com/exampleuser/templates/master/',parameters('newOrExisting'),'StorageAccount.json')]"
+  },
     "resources": [
       {
         "apiVersion": "2015-01-01",
