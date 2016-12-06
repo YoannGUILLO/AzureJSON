@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "storageAccountName": {
+        "type": "string"
+      },
+      "newOrExisting": {
+        "type": "string",
+        "allowedValues": [
+          "new",
+          "existing"
+        ]
+      }
+  },
+    "variables": {
+      "templatelink": "[concat('https://raw.githubusercontent.com/exampleuser/templates/master/',parameters('newOrExisting'),'StorageAccount.json')]"
+    },
+    "resources": [
+      {
+        "apiVersion": "2015-01-01",
+        "name": "linkedTemplate",
+        "type": "Microsoft.Resources/deployments",
+        "properties": {
+          "mode": "Incremental",
+          "parameters": {
+            "StorageAccountName": {
+              "value": "[parameters('storageAccountName')]"
+            }
+          },
+          "templateLink": {
+            "uri": "[variables('templatelink')]",
+            "contentVersion": "1.0.0.0"
+          }
+        }
+      }
+    ],
+    "outputs": {
+    }
+}
