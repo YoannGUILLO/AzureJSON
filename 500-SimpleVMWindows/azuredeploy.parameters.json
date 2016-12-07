@@ -1,6 +1,36 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "VMName": {
+      "value": "VM-DEMO001"
+    },
+    "adminUsername": {
+      "value": "admcloud"
+    },
+    "adminPassword": {
+      "value": "GEN-PASSWORD"
+    },
+    "dnsLabelPrefix": {
+      "value": "customklayip2"
+    },
+    "osType": {
+      "value": "Windows"
+    },
+    "vmSize": {
+      "value": "Standard_A1"
+    },
+    "newOrExistingVnet": {
+      "value": "existing"
+    },
+    "newOrExistingVnetName": {
+      "value": "customubrg-vnet"
+    },
+    "newOrExistingSubnetName": {
+      "value": "default"
+    },
+    "existingVnetResourceGroupName": {
+      "value": "customubrg"
     }
+  }
 }
