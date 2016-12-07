@@ -9,10 +9,10 @@
       "value": "admcloud"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "P@ssword2016"
     },
     "dnsLabelPrefix": {
-      "value": "customklayip2"
+      "value": "customdnsygu001"
     },
     "osType": {
       "value": "Windows"
@@ -21,16 +21,16 @@
       "value": "Standard_A1"
     },
     "newOrExistingVnet": {
-      "value": "existing"
+      "value": "new"
     },
     "newOrExistingVnetName": {
-      "value": "customubrg-vnet"
+      "value": "MY-VNET"
     },
     "newOrExistingSubnetName": {
       "value": "default"
     },
     "existingVnetResourceGroupName": {
-      "value": "customubrg"
+      "value": ""
     }
   }
 }
