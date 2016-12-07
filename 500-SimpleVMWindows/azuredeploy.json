@@ -47,16 +47,6 @@
         "description": "Password for the Virtual Machine"
       }
     },
-    "osType": {
-      "type": "string",
-      "allowedValues": [
-        "Windows",
-        "Linux"
-      ],
-      "metadata": {
-        "description": "This is the OS that your VM will be running"
-      }
-    },
     "vmSize": {
       "type": "string",
       "defaultValue": "Standard_A1",
@@ -186,7 +176,6 @@
           },
           "osDisk": {
             "name": "[concat(parameters('VMName'),'-OS')]",
-            "osType": "[parameters('osType')]",
             "caching": "ReadWrite",
             "createOption": "FromImage",
             "vhd": {
