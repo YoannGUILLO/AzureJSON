@@ -14,6 +14,9 @@
     "dnsLabelPrefix": {
       "value": "customdnsygu001"
     },
+    "StorageAccountName": {
+      "value": "admcloud"
+    },
     "osType": {
       "value": "Windows"
     },
