@@ -17,9 +17,6 @@
     "StorageAccountName": {
       "value": "stordemo001"
     },
-    "osType": {
-      "value": "Windows"
-    },
     "vmSize": {
       "value": "Standard_A1"
     },
