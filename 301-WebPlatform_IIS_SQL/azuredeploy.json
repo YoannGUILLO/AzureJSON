@@ -26,19 +26,19 @@
     "webSrvVMSize": {
       "type": "string",
       "allowedValues": [
-        "Standard_DS1_v2",
-        "Standard_DS2_v2",
-        "Standard_DS3_v2",
-        "Standard_DS4_v2",
-        "Standard_DS11_v2",
-        "Standard_DS12_v2",
-        "Standard_DS13_v2",
-        "Standard_DS14_v2"
+        "Standard_D1_v2",
+        "Standard_D2_v2",
+        "Standard_D3_v2",
+        "Standard_D4_v2",
+        "Standard_D11_v2",
+        "Standard_D12_v2",
+        "Standard_D13_v2",
+        "Standard_D14_v2"
       ],
       "metadata": {
         "description": "The size of the Web Server VMs Created"
       },
-      "defaultValue": "Standard_DS2_v2"
+      "defaultValue": "Standard_D2_v2"
     },
     "numberOfWebSrvs": {
       "type": "int",
@@ -54,19 +54,19 @@
     "sqlVMSize": {
       "type": "string",
       "allowedValues": [
-        "Standard_DS1_v2",
-        "Standard_DS2_v2",
-        "Standard_DS3_v2",
-        "Standard_DS4_v2",
-        "Standard_DS11_v2",
-        "Standard_DS12_v2",
-        "Standard_DS13_v2",
-        "Standard_DS14_v2"
+        "Standard_D1_v2",
+        "Standard_D2_v2",
+        "Standard_D3_v2",
+        "Standard_D4_v2",
+        "Standard_D11_v2",
+        "Standard_D12_v2",
+        "Standard_D13_v2",
+        "Standard_D14_v2"
       ],
       "metadata": {
         "description": "The size of the SQL VM Created"
       },
-      "defaultValue": "Standard_DS3_v2"
+      "defaultValue": "Standard_D3_v2"
     },
     "storageAccountType": {
       "type": "string",
