@@ -276,12 +276,14 @@
       "location": "[resourceGroup().location]",
       "apiVersion": "2017-06-01",
       "dependsOn": [ ],
+      "sku": {
+        "name": "Standard_LRS"
+      },
+      "kind": "Storage",
       "tags": {
         "displayName": "StorageForEnv"
       },
-      "properties": {
-        "accountType": "[parameters('storageAccountType')]"
-      }
+      "properties": {}
     },
     {
       "name": "[variables('sqlPublicIP')]",
